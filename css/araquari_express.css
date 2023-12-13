@@ -61,3 +61,7 @@ body {
 #btnhome{
     background-color: #ffffff;
 }
+#main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
