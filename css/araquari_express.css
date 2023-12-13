@@ -1,4 +1,7 @@
 body {
+    display:grid;
+    grid-template-columns:1fr;
+    grid-template-rows: 1fr;
     font-family: 'Open Sans', sans-serif;
     background-color: #f7f7f7;
 }
@@ -47,4 +50,11 @@ body {
 }
 .call-to-action:hover {
     background-color: #ccccff;
+}
+#baner{
+    background-color: #000;
+}
+#banerimg{
+    width: 100%;
+    opacity: 70%;
 }
